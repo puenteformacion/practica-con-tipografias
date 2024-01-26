@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+*, *::after, *::before{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "encabezados";
+    src: url(../fonts/PlayfairDisplay-SemiBold.woff);
+}
+
+@font-face {
+    font-family: "textos";
+    src: url(../fonts/Lato-Regular.woff);
+    font-weight: 900;
+}
+
+
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "encabezados";   
+}
